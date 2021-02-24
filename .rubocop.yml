@@ -1,0 +1,32 @@
+require:
+  - rubocop-rspec
+  - rubocop-performance
+AllCops:
+  NewCops: enable
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+RSpec/MessageChain:
+  Exclude:
+    - 'spec/**/*.rb'
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*.rb'
+
+Layout/LineLength:
+  Exclude:
+    - 'src/constants.rb'
+
+RSpec/ExampleLength:
+  Exclude:
+    - 'spec/**/*.rb'
+Metrics/MethodLength:
+  IgnoredMethods: ['to_h','proceed_user_input']
+
+RSpec/MultipleMemoizedHelpers:
+  Max: 7
