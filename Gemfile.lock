@@ -1,9 +1,10 @@
 GIT
-  remote: https://x-access-token:e601abdcf5a24d27ed841ca1585d86b1046503ff@github.com/prototype2012/codebreaker_gem.git
-  revision: b021fb8750286c1510a07a997d69ebaee07e7f6b
+  remote: https://x-access-token:6373b3bc16b1cbb320c87ccf9d99208212781bcf@github.com/prototype2012/codebreaker_gem.git
+  revision: 4796fb0801f6aa2cc85530871f6b40cd5ffb995f
   specs:
-    codebreaker (0.6.0)
+    codebreaker (0.7.0)
       rake
+      terminal-table (~> 1.6)
 
 GEM
   remote: https://rubygems.org/
@@ -70,7 +71,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  codebreaker (~> 0.6.0)!
+  codebreaker (~> 0.7.0)!
   fasterer (~> 0.8.3)
   rspec (~> 3.10)
   rubocop (~> 1.9)
